@@ -55,3 +55,21 @@ nav ul li a::after{
 nav ul li a:hover{
     width: 50%;
 }
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.text-box p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-box h1{
+    font-size: 190px;
+    font-weight: 160;
+    margin-left: -10px;
+}
+.text-box h2{
+    font-size: 50px;
+    font-weight: 600;
+}
