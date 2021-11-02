@@ -42,7 +42,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    position: relative;
+    position: absolute;
 }
 nav ul li a::after{
     content: '';
@@ -71,9 +71,9 @@ nav ul li a:hover::after{
     font-size: 130px;
     font-weight: 1000;
     margin-left: -10px;
+    /*margin-bottom: 500px;*/
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    
     background: url(back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -85,10 +85,10 @@ nav ul li a:hover::after{
     }
 }
 
-.text-box h2{
+/*.text-box h2{
     font-size: 50px;
     font-weight: 600;
-}
+}*/
 
 .textbox .row{
     display: flex;
