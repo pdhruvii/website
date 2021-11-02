@@ -73,6 +73,7 @@ nav ul li a:hover::after{
     margin-left: -10px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
+    
     background: url(back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -111,9 +112,9 @@ nav ul li a:hover::after{
     position: absolute;
 }
 
-.user-box{
+.user-box img{
     border-radius: 50%;
-    width: 250;
-    border: 5px solid white;
+    width: 300px;
+    border: 3px solid white;
 
 }
