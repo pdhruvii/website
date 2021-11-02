@@ -63,10 +63,11 @@ nav ul li a:hover::after{
     position: absolute;
     bottom: 8%;
 }
-.text-box p{
+/*.text-box p{
     font-size: 50px;
     font-weight: 600;
-}
+}*/
+
 .text-box h1{
     font-size: 130px;
     font-weight: 1000;
