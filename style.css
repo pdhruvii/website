@@ -136,5 +136,18 @@ nav ul li a:hover::after{
     border-radius: 50%;
     width: 300px;
     border: 3px solid white;
+}
 
+.user-box h1{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 75px
+    /*left: 75%;
+    transform: translate(-50%,10%);
+    position: relative;*/
+}
+
+.user-box p{
+    color: #fff;
+    margin-left: 45px
 }
