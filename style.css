@@ -151,3 +151,50 @@ nav ul li a:hover::after{
     color: #fff;
     margin-left: 45px
 }
+
+.scroll-btn{
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+
+.scroll-bar span{
+    border: 2px solid white;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.scroll-bar
+{
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover 
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+    
+}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-decoration-color: black;
+}
+
+/*.profile-img{
+    height: 400px;
+}*/
+
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: black;
+}
